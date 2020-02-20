@@ -19,13 +19,20 @@ The zip file should include four files:
 * **Team_teamname.ppt**
 * **Team_teamname_wrapper.ipynb**
 * Training prediction probabilities:
-  * **y_train_prob_pred_small.csv** or **y_train_prob_pred_big.csv** or **y_train_prob_pred.csv**
+  * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
+  * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
+  * **y_train_prob_pred.csv** if you are analyzing the whole dataset
 * Testing prediction probabilities:
-  * **y_test_prob_pred_small.csv** or **y_test_prob_pred_big.csv** or **y_test_prob_pred.csv**
+  * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
+  * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
+  * **y_test_prob_pred.csv** if you are analyzing the whole dataset
 
 There is an example submission in the folder called **Team_test.zip** which includes all the files expect for the slides for your reference.
 
 In case there are unforeseen difficulties submitting the zip files, as an alternative. You can email the zip files to pdecrem@gmail.com or angelajin95@gmail.com
+
+#### Test Submission: 
+There is a chance to test submit at DAY2 9:00 AM to make sure you have the correct formats for actual submission. We will test grade your submitted zip files. All the zip files for the test submission will be collected and deleted before 9:30 AM. We will let you know if there is any issue with the submission format.
 
 ## Grading:
 We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also granted to teams which are working with more challenging datasets. 
@@ -37,13 +44,23 @@ You can create an extra folder named mask and zip it up with the other 4 files t
 * **Team_teamname.ppt**
 * **Team_teamname_wrapper.ipynb**
 * Training prediction probabilities:
-  * **y_train_prob_pred_small.csv** or **y_train_prob_pred_big.csv** or **y_train_prob_pred.csv**
+    * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
+    * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
+    * **y_train_prob_pred.csv** if you are analyzing the whole dataset
 * Testing prediction probabilities:
-  * **y_test_prob_pred_small.csv** or **y_test_prob_pred_big.csv** or **y_test_prob_pred.csv**
+  * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
+  * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
+  * **y_test_prob_pred.csv** if you are analyzing the whole dataset
 * **Masked** folder. Masked folder shall contain
   * **Team_teamname_wrapper_masked.ipynb**
-  * **y_train_prob_pred_masked_small.csv** or **y_train_prob_pred_masked_big.csv** or **y_train_prob_pred_masked.csv**
-  * **y_test_prob_pred_masked_small.csv** or **y_test_prob_pred_masked_big.csv** or **y_test_prob_pred_masked.csv**
+  * Training prediction probabilities:
+    * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
+    * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
+    * **y_train_prob_pred.csv** if you are analyzing the whole dataset
+  * Testing prediction probabilities:
+    * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
+    * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
+    * **y_test_prob_pred.csv** if you are analyzing the whole dataset
 
 If you don't have the probabilities, just a series of the labels \[0,1,2,3\] would be fine as well.
 
