@@ -44,6 +44,7 @@ You can create an extra folder named mask and zip it up with the other 4 files t
   * **Team_teamname_wrapper_masked.ipynb**
   * **y_train_prob_pred_masked_small.csv** or **y_train_prob_pred_masked_big.csv** or **y_train_prob_pred_masked.csv**
   * **y_test_prob_pred_masked_small.csv** or **y_test_prob_pred_masked_big.csv** or **y_test_prob_pred_masked.csv**
+
 If you don't have the probabilities, just a series of the labels \[0,1,2,3\] would be fine as well.
 
 ## Enjoy hacking!
