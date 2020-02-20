@@ -9,7 +9,7 @@ We provide three datasets:
 **data_small.zip** and **data_big.zip** can be found in the current repository, while **data.zip** can be downloaded from the following google drive link: https://drive.google.com/open?id=1h0BIGvj91L1hLErspeYkMRbnC2KzMxqK
 
 ## Code:
-**wrapper.ipynb** can be found in the current repository. Functions to load datasets, to generate cohen's kappa score and to write results to csv files are provided. Students can code up the preprocessing step and classification model in the cell below *Insert Your Code Here*. Simple examples to preprocess data and to fit a logistic regression model is provided. More details are included in the wrapper.ipynb file. 
+**wrapper.ipynb** can be found in the current repository. Functions to load datasets, to generate cohen's kappa score and to write results to csv files are provided. Students can code up the preprocessing step and classification model in the cell below **Insert Your Code Here**. Simple examples to preprocess data and to fit a logistic regression model is provided. More details are included in the wrapper.ipynb file. 
 
 ## Submission:
 Please submit your results to the **Submission folder** as a zip file with the following naming convension:
