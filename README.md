@@ -28,9 +28,22 @@ There is an example submission in the folder called **Team_test.zip** which incl
 In case there are unforeseen difficulties submitting the zip files, as an alternative. You can email the zip files to peter@decrem.com or angelajin95@gmail.com
 
 ## Grading:
-We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also granted to teams which are working with more challenging datasets. Enjoy hacking!
+We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also granted to teams which are working with more challenging datasets. 
 
 ## Bonus Points:
 You will notice there is a file called y_masked_train_small.csv or y_masked_train_big.csv or y_masked_train.csv where we masked the class 3 as 0 in the training dataset. For those of you who have extra time/interest, feel free to try train with the masked y labels and figure out a way to identify class 3 (a variation of spooying) in both training and testing data set. 
 
-You can submit a file called **Team_teamname_masked.zip** in the **Submission folder** and we will take a look at your solution. **Team_teamname_masked.zip** shall have the 
+You can create an extra folder named mask and zip it up with the other 4 files to be submitted. So **Team_teamname.zip** should include:
+* **Team_teamname.ppt**
+* **Team_teamname_wrapper.ipynb**
+* Training prediction probabilities:
+  * **y_train_prob_pred_small.csv** or **y_train_prob_pred_big.csv** or **y_train_prob_pred.csv**
+* Testing prediction probabilities:
+  * **y_test_prob_pred_small.csv** or **y_test_prob_pred_big.csv** or **y_test_prob_pred.csv**
+* **Masked** folder. Masked folder shall contain
+  * **Team_teamname_wrapper_masked.ipynb**
+  * **y_train_prob_pred_masked_small.csv** or **y_train_prob_pred_masked_big.csv** or **y_train_prob_pred_masked.csv**
+  * **y_test_prob_pred_masked_small.csv** or **y_test_prob_pred_masked_big.csv** or **y_test_prob_pred_masked.csv**
+If you don't have the probabilities, just a series of the labels \[0,1,2,3\] would be fine as well.
+
+## Enjoy hacking!
