@@ -12,7 +12,7 @@ We provide three datasets:
 **wrapper.ipynb** can be found in the current repository. Functions to load datasets, to generate cohen's kappa score and to write results to csv files are provided. Students can code up the preprocessing step and classification model in the cell below **Insert Your Code Here**. Simple examples to preprocess data and to fit a logistic regression model is provided. More details are included in the wrapper.ipynb file. 
 
 ## Submission:
-Please upload your results to the **Submission folder** as a zip file with the following naming convension:
+Please upload your results to the **Submission folder** during DAY2 11:00 AM ~ 11:05 AM as a zip file with the following naming convension:
 * **Team_teamname.zip** 
 
 The zip file should include four files:
