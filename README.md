@@ -1,6 +1,6 @@
 # MIT-Fintech-Challenge
 
-## Dataset:
+## Datasets:
 There are three data sets available:
 1. **data_small** has trade/order activities for 1 security. It has a file size of about 30MB, and it has around 180K rows. It would be a great starting point to analyze spoofying activity. 
 2. **data_big** has trade/order activities for 3 securities. It has a file size of about 100MB, and it has around 550K rows. This data set would be suitable for someone who has more computational power and want to have a deeper understanding of the the data
