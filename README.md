@@ -20,11 +20,15 @@ The zip file should include four files:
 * **Team_teamname_wrapper.ipynb**
 * Training prediction probabilities:
   * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
+  *or*
   * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
+  *or*
   * **y_train_prob_pred.csv** if you are analyzing the whole dataset
 * Testing prediction probabilities:
   * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
+  *or*
   * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
+  *or*
   * **y_test_prob_pred.csv** if you are analyzing the whole dataset
 
 There is an example submission in the folder called **Team_test.zip** which includes all the files expect for the slides for your reference.
@@ -45,21 +49,29 @@ You can create an extra folder named mask and zip it up with the other 4 files t
 * **Team_teamname_wrapper.ipynb**
 * Training prediction probabilities:
     * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
+    or
     * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
+    or
     * **y_train_prob_pred.csv** if you are analyzing the whole dataset
 * Testing prediction probabilities:
   * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
+  or
   * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
+  or
   * **y_test_prob_pred.csv** if you are analyzing the whole dataset
 * **Masked** folder. Masked folder shall contain
   * **Team_teamname_wrapper_masked.ipynb**
   * Training prediction probabilities:
     * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
+    *or*
     * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
+    *or*
     * **y_train_prob_pred.csv** if you are analyzing the whole dataset
   * Testing prediction probabilities:
     * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
+    *or*
     * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
+    *or*
     * **y_test_prob_pred.csv** if you are analyzing the whole dataset
 
 If you don't have the probabilities, just a series of the labels \[0,1,2,3\] would be fine as well.
