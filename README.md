@@ -20,7 +20,7 @@ We encourage groups to come up with creative solutions. To give you a head start
 - Another approach would be to randomly replace the endUserRefs for each epoch (e.g. shift the one-hot encoded vector or randomize the int map -- depending on how its represented). If we were to consider some ethical aspects of spoofying classification, it sounds a bit unfair to systematically skewing classification towards particular endUserRefs - i.e. if the user has spoofied before the classifier will think the user is very likely to spoof again in the future. Therefore, we encourage you to try to make this agnostic of endUserRef (i.e. not biased against any specific individual). To do so you can use data from multiple instruments, shuffle endUserRefs within each batch, or any other form of regularization.
 
 ## Submission:
-Please upload your results to the **Submission folder** during DAY2 11:00 AM ~ 11:05 AM as a zip file with the following naming convension:
+Please upload your results to the **Submission folder** during DAY2 before 11:00 AM as a zip file with the following naming convension:
 * **Team_teamname.zip** 
 
 The zip file should include four files:
@@ -33,13 +33,7 @@ The zip file should include four files:
   *or*
   * **y_train_prob_pred.csv** if you are analyzing the whole dataset
 * Testing prediction probabilities:
-  * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
-  *or*
-  * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
-  *or*
-  * **y_test_prob_pred.csv** if you are analyzing the whole dataset
-
-There is an example submission in the folder called **Team_test.zip** which includes all the files expect for the slides for your reference.
+  * **y_test_prob_pred.csv** For the test, please submit your prediction results for the X_test.csv under data folder.
 
 To submit, you can go to **Submission folder** click upload files, upload your zip file and click commit changes.
 
@@ -49,6 +43,5 @@ In case there are unforeseen difficulties submitting the zip files, as an altern
 There is a chance to test submit at DAY2 9:00 AM to make sure you have the correct formats for actual submission. We will test grade your submitted zip files. All the zip files for the test submission will be collected and deleted before 9:30 AM. We will let you know if there is any issue with the submission format.
 
 ## Grading:
-We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also be granted to teams which are working with more challenging datasets. 
-
+We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa
 ## Enjoy hacking!
