@@ -41,13 +41,15 @@ The zip file should include four files:
 
 There is an example submission in the folder called **Team_test.zip** which includes all the files expect for the slides for your reference.
 
+To submit, you can go to **Submission folder** click upload files, upload your zip file and click commit changes.
+
 In case there are unforeseen difficulties submitting the zip files, as an alternative. You can email the zip files to pdecrem@gmail.com or angelajin95@gmail.com
 
 #### Test Submission: 
 There is a chance to test submit at DAY2 9:00 AM to make sure you have the correct formats for actual submission. We will test grade your submitted zip files. All the zip files for the test submission will be collected and deleted before 9:30 AM. We will let you know if there is any issue with the submission format.
 
 ## Grading:
-We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also granted to teams which are working with more challenging datasets. 
+We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also be granted to teams which are working with more challenging datasets. 
 
 ## Bonus Points:
 You will notice there is a file called y_masked_train_small.csv or y_masked_train_big.csv or y_masked_train.csv where we masked the class 3 as 0 in the training dataset. For those of you who have extra time/interest, feel free to try train with the masked y labels and figure out a way to identify class 3 (a variation of spooying) in both training and testing data set. 
