@@ -51,39 +51,4 @@ There is a chance to test submit at DAY2 9:00 AM to make sure you have the corre
 ## Grading:
 We will use Cohen's Kappa to evaluate the prediction results. https://en.wikipedia.org/wiki/Cohen%27s_kappa Extra points will also be granted to teams which are working with more challenging datasets. 
 
-## Bonus Points:
-You will notice there is a file called y_masked_train_small.csv or y_masked_train_big.csv or y_masked_train.csv where we masked the class 3 as 0 in the training dataset. For those of you who have extra time/interest, feel free to try train with the masked y labels and figure out a way to identify class 3 (a variation of spooying) in both training and testing data set. 
-
-You can create an extra folder named mask and zip it up with the other 4 files to be submitted. So **Team_teamname.zip** should include:
-* **Team_teamname.ppt**
-* **Team_teamname_wrapper.ipynb**
-* Training prediction probabilities:
-    * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
-    *or*
-    * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
-    *or*
-    * **y_train_prob_pred.csv** if you are analyzing the whole dataset
-* Testing prediction probabilities:
-  * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
-  *or*
-  * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
-  *or*
-  * **y_test_prob_pred.csv** if you are analyzing the whole dataset
-* **Masked** folder. Masked folder shall contain
-  * **Team_teamname_wrapper_masked.ipynb**
-  * Training prediction probabilities:
-    * **y_train_prob_pred_small.csv** if you are analyzing the small dataset
-    *or*
-    * **y_train_prob_pred_big.csv** if you are analyzing the big dataset
-    *or*
-    * **y_train_prob_pred.csv** if you are analyzing the whole dataset
-  * Testing prediction probabilities:
-    * **y_test_prob_pred_small.csv** if you are analyzing the small dataset
-    *or*
-    * **y_test_prob_pred_big.csv** if you are analyzing the big dataset
-    *or*
-    * **y_test_prob_pred.csv** if you are analyzing the whole dataset
-
-If you don't have the probabilities, just a series of the labels \[0,1,2,3\] would be fine as well.
-
 ## Enjoy hacking!
